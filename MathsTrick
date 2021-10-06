@@ -1,21 +1,6 @@
 import time
 
 
-name = input("Hello, what is your name?\n")
-
-time.sleep(2)
-print("Hello " + name,)
-
-time.sleep(2)
-feeling = input("How are you today?\n")
-
-time.sleep(3)
-if feeling in ["Good", "good"]:
-    print("I'm feeling good too!")
-else:
-    print("I'm sorry to hear that!")
-
-
 time.sleep(3)
 question = input ("Would you like to play a quick Maths game?\n")
 
